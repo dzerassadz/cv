@@ -2,87 +2,99 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="dzerassa dzabieva, cv, marketing manager, resume" >
+    <meta name="description" content="website cv dzerassa dzabieva" >
     <title>Dzerassa CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <table cellspacing="15">
-<tr>
-    <td>
-        <img src="IMG_0982.jpg" width="200" alt="this is my picture">
-    </td>
-    <td>
-        <h1>Dzerassa Dzabieva</h1>
-        <p> <em>  Digital marketing and <strong> graphic design</strong></em></p>
-        <p>Love to work from home and my dog</p>
-    </td>
-</tr>
 
-    </table>
+<div class="container">   
+<div class="info">
+    <img src="IMG_0982.jpg" 
+    alt="Dzerassa Dzabieva" class="avatar"> 
 
-<hr>
+ <div class="info-text">
+ <h1>Dzerassa Dzabieva</h1>
+<p>  Digital marketing and graphic design</p>
+<p>Love to work from home and my dog</p>
 
-<h2>My social accounts</h2>
-<ul>
-    <li> <a href="https://instagram.com/dzer.a" target="_blank"> Instagram </a></li>
-    <li><a href="https://linkedin.com/in/dzeradzabieva/" target="_blank"> Linkedin </a></li>
-</ul>
-<hr>
-<h2>My contacts</h2>
-<ol>
-    <li>email dzabievadt@gmail.com</li>
-    <li>phone +31683441060</li>
-</ol>
+<h4>My social accounts</h4>
 
-<hr>
+<a href="https://instagram.com/dzer.a" target="_blank"> Instagram </a>
+|
+<a href="https://linkedin.com/in/dzeradzabieva/" target="_blank"> Linkedin </a>
 
-<h2>Experience</h2>
-<table>
-        <tr>
-            <th>Company</th>
-            <th>Position</th>
-            <th>Years</th>
-        </tr>
-        <tr>
-            <td>Storewars</td>
-            <td>Project Manager</td>
-            <td>2018 - 2020</td>
-            <tr>
-                <td>Creative Force</td>
-                <td>SMM Manager</td>
-                <td>2016 - 2018</td>
-            </tr>
+</div>
+ </div>
+
     
-</table>
+    <div class="card bg-green">
+        <h2>My contacts</h2>
+        <ol class="list">
+            <li>email dzabievadt@gmail.com</li>
+            <li>phone +31683441060</li>
+        </ol>
+        </div>
 
-<hr>
+    
+    <div class="card bg-red">
+        <h2>Experience</h2>
+        <table class="table">
+                <tr>
+                    <td>Storewars</td>
+                    <td>Project Manager</td>
+                    <td>2018 - 2020</td>
+                    <tr>
+                        <td>Creative Force</td>
+                        <td>SMM Manager</td>
+                        <td>2016 - 2018</td>
+                    </tr>
+            
+        </table>
+        </div>
 
-<h2>Youtube</h2>
-<a href="youtube.html">Look at the list</a>
+    
 
-<hr>
+    <div class="card bg-yellow">
+    <h2>Youtube</h2>
+    <ul class="link-list">
+        <li>
+            <a href="https://www.youtube.com/channel/UC5-NRne6gxBD3P5L8XqoqUQ">Vlog1</a>
+        </li>
+        </ul>
+    </div>
+    
+<div class="contact">
+    <h2>Contact me </h2>
 
-<h2>Contact me </h2>
+    <form action="/">
+        <div class="row">
+            <div class="form-group">
+            <label for="name">Your name</label>
+        <input type="text" id="name" 
+        placeholder="Type your name">
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Your email</label>
+        <input type="email" id="email" 
+        placeholder="Type your email">
+    </div>
+    </div>
+<div class="form-group">
+    <label for="text">Your message</label>
+    <textarea id="text" cols="20" rows="5" placeholder="Type your message here"></textarea>
+</div>
 
-<form action="/">
-    <label for="name">Your name</label>
-<input type="text" id="name" 
-placeholder="Type here">
+    <input class="btn" type="submit" value="Submit">
+    </form>
+</div>
+</div>
 
-<br>
-
-<label for="email">Your email</label>
-<input type="email" id="email" 
-placeholder="Type here">
-
-<br>
-
-<label for="text">Your message</label>
-<br>
-<textarea id="text" cols="20" rows="5"></textarea>
-
-<br>
-
-<input type="submit" value="Submit">
-</form>
+<div class="position">
+    <div class="box"></div>
+</div>
 </body>
 </html>
